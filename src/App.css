@@ -1,11 +1,13 @@
 .App {
-  height: 100%;
+  height: 100vh;
+  display: grid;
+  align-content: center;
+  justify-content: center;
 }
 
 h1 {
   text-align: center;
-  font-size: 14pt;
-  font-weight: normal;
+  font-weight: bold;
 }
 
 .table {
@@ -16,8 +18,8 @@ h1 {
 .table tr td {
   border: 1px solid white;
   background: #999999;
-  width: 16px;
-  height: 16px;
+  width: 32px;
+  height: 32px;
   text-align: center;
 }
 
@@ -30,5 +32,8 @@ h1 {
 }
 
 button {
-  margin: 12px;
+  width: 100px;
+  height: 35px;
+  margin: auto;
+  margin-top: 12px;
 }
